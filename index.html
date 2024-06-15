@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexFit</title>
+  <link rel="shortcut icon" href="logo3.webp" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Baskerville&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Libre+Baskerville&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Libre+Baskerville&family=Secular+One&family=Staatliches&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&family=Nanum+Myeongjo&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&family=Gugi&family=Nanum+Myeongjo&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chau+Philomene+One&family=Dancing+Script:wght@400..700&family=Gugi&family=Nanum+Myeongjo&family=Tienne&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chau+Philomene+One&family=Dancing+Script:wght@400..700&family=Gugi&family=Nanum+Myeongjo&family=Rubik+Doodle+Shadow&family=Tienne&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="nav">
+    <a href="">
+      <img src="logo2.png" class="logo-img" width="45" height="40">
+      <h4 class="brand">FlexFit</h4>
+      <div class="nav-in">
+        <h3 class="nav-content">Home</h3>
+        <h3 class="nav-content">Process</h3>
+        <h3 class="nav-content">Trainers</h3>
+        <h3 class="nav-content">Gallery</h3>
+        <h3 class="nav-content">Contact</h3>
+      </div>
+    </a>
+    <Button class="nav-btn">Sign-in</Button>
+
+  </nav>
+  <!-- login page -->
+  <div class="main">
+    <div class="login-container">
+      <h2>Login </h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Login</button>
+        </div>
+        <div id="error-message" class="error-message"></div>
+      </form>
+    </div>
+  </div>
+  <!-- Home section -->
+  <div class="home-top">
+    <div class="home">
+      <h1 class="title-h">Hey! Welcome to FlexFit</h1>
+      <div class="main-h">
+        "The pain you feel today will be <br>the strength you feel tomorrow."
+      </div>
+      <p style="margin-bottom: 3%;"> Lorem ipsum dolor sit amet consectetur cumque consequuntur at tempore obcaecati
+        explicabo quam sit repudiandae cupiditate<br> ullam necessitatibus eius? Sequi cumque, quidem aperiam tempora
+        eveniet hic, iste saepe nam, libero architecto perferendis! Animi?</p>
+      <div class="count-h">
+        <div class="one" style="margin-left: 1px;">
+          <h2>105+</h2>
+          <p>Trainers</p>
+        </div>
+        <hr>
+        <div class="one">
+          <h2>205+</h2>
+          <p>Equipments</p>
+        </div>
+        <hr>
+        <div class="one">
+          <h2>15K+</h2>
+          <p>Students</p>
+        </div>
+        <HR>
+        </HR>
+        <div class="one">
+          <h2>20+</h2>
+          <p>Branches</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Process section-->
+  <div class="pro-top">
+    <h1 class="title-pro"> Our Process</h1>
+    <div class="process">
+      <div class="card">
+        <div class="img"><i class="fa-solid fa-chart-simple"></i>
+        </div>
+        <div class="text-pro" style="  font-size: 25px; font-family: Tienne, serif; color: white;">Analyse Your Goal
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="img"><i class="fa-solid fa-hourglass-start"></i></div>
+        <div class="text-pro" style="  color: white;font-size: 25px; font-family: Tienne, serif;">Work Hard On It</div>
+      </div>
+      <div class="card">
+        <div class="img"><i class="fa-solid fa-heart"></i></div>
+        <div class="text-pro" style=" color: white; font-size: 25px; font-family: Tienne, serif;">We Will Take Care
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"><i class="fa-solid fa-thumbs-up"></i></div>
+        <div class="text-pro" style=" color: white; font-size: 25px; font-family: Tienne, serif;">Improve You</div>
+      </div>
+      <div class="card">
+        <div class="img"><i class="fa-solid fa-gem"></i></div>
+        <div class="text-pro" style=" color: white; font-size: 25px; font-family: Tienne, serif;">Achieve Your Goal
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trainers section -->
+  <div class="trainers">
+    <div class="title-pro" style="padding-top: 1%;padding-bottom: 1%;">
+      Our Trainers
+    </div>
+    <div class="trainers-li">
+      <div class="one-li">
+        <img src="trainer1.jpeg" alt="" class="img-li">
+        <div class="name-tra">David</div>
+        <div style="font-size: 20px;">Head of the gym</div>
+        <div class="icon-tra">
+          <a href=""> <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <hr>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="one-li">
+        <img src="trainer2.webp" alt="" class="img-li">
+        <div class="name-tra">John</div>
+        <div style="font-size: 20px;">Main coach</div>
+        <div class="icon-tra">
+          <a href=""> <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <hr>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="one-li">
+        <img src="trainer3.png" alt="" class="img-li">
+        <div class="name-tra">Joe</div>
+        <div style="font-size: 20px;">Assistant coach</div>
+        <div class="icon-tra">
+          <a href=""> <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <hr>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="one-li">
+        <img src="trainer4.jpg" alt="" class="img-li">
+        <div class="name-tra">Arjun</div>
+        <div style="font-size: 20px;">Health Advicer</div>
+        <div class="icon-tra">
+          <a href=""> <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <hr>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+          <hr>
+          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gallery Section -->
+  <div class="gallery-top">
+    <div class="gallery">
+      <div class="title-pro" style="margin-left: 45%;">
+        Gallery
+      </div>
+    </div>
+    <div class="inside-g">
+      <div class="img-g"><img class="in-g" src="gallery3.avif" alt=""></div>
+      <div class="img-g"><img class="in-g" src="gallery4.jpg" alt=""></div>
+      <div class="img-g"><img class="in-g" src="gallery1.jpg" alt=""></div>
+
+    </div>
+    <div class="inside-g">
+      <div class="img-g"><img class="in-g" src="gallery2.jpg" alt=""></div>
+      <div class="img-g"> <img src="gallery6.jpg" class="in-g" alt=""></div>
+      <div class="img-g"><img src="gallery5.jpg" class="in-g" alt=""></div>
+
+    </div>
+    <div class="inside-g">
+      <div class="img-g"><img src="gallery7.jpg" class="in-g" alt=""></div>
+      <div class="img-g"><img src="gallery8.avif" class="in-g" alt=""></div>
+      <div class="img-g"><img src="gallery9.jpg" class="in-g" alt=""></div>
+    </div>
+  </div>
+  <!-- thought -->
+  <div class="thought">
+    <img src="thought1.jpg" alt="" class="th">
+  </div>
+  <!-- Contact section -->
+  <div class="tit">
+    <div class="title-pro" style="margin-left: 43%;">Contact</div>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" placeholder="John" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder=" 123-456-7890" required>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="foot">
+      <h1 class="foot-h">All Rights Reserved @FlexFit </h1>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
